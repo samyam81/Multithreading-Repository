@@ -40,8 +40,8 @@ public class threadtester {
         }
             //System.out.println("Main is exiting");
         */
-    String lock1="riddhi";
-    String lock2="dutta";
+    String lock1="Samyam";
+    String lock2="EightyOne";
     //Creating a dead lock in java
         Thread thread1=new Thread(()->{
             synchronized(lock1){
